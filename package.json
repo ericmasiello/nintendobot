@@ -1,17 +1,24 @@
 {
-  "name": "nintendobot",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
-  "license": "MIT",
-  "dependencies": {
-    "node-cron": "^3.0.0",
-    "puppeteer": "^10.4.0"
-  }
+    "name": "nintendobot",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier . --ignore-unknown --write"
+    },
+    "keywords": [],
+    "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "node-cron": "^3.0.0",
+        "puppeteer": "^10.4.0",
+        "twilio": "^3.70.0"
+    },
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "lint-staged": "^11.2.4",
+        "prettier": "^2.4.1"
+    }
 }
