@@ -11,6 +11,7 @@
     "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
     "license": "MIT",
     "dependencies": {
+        "chalk": "^4.1.2",
         "dotenv": "^10.0.0",
         "node-cron": "^3.0.0",
         "puppeteer": "^10.4.0",
